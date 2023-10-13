@@ -4,7 +4,7 @@
 echo "."
 echo "*** installing extras. ***"
 
-apt install neofetch -y
+apt install neofetch -y --force-yes
 echo "neofetch" >> /home/chip/.bashrc
 
 wget https://raw.githubusercontent.com/mahtan/headless/main/startup.sh
