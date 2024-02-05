@@ -1,6 +1,4 @@
-nano jessie-to-stretch-x11.sh 
-nano stretch-to-buster.sh 
-nano stretch-to-buster-x11.sh #!/bin/bash
+#!/bin/bash
 
 mv /etc/rc.local.orig /etc/rc.local
 
