@@ -4,7 +4,7 @@
 echo "."
 echo "*** Updating and upgrading Debian Bullseye to Bookworm. ***"
 mv /etc/apt/sources.list /etc/apt/sources.list.bak
-wget https://raw.githubusercontent.com/mahtan/Flash-CHIP/master/CHIP-updater/bookworm_source_list.txt
+wget https://raw.githubusercontent.com/jpenninkhof/Flash-CHIP/master/CHIP-updater/bookworm_source_list.txt
 mv bookworm_source_list.txt /etc/apt/sources.list
 
 echo "."
